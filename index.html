@@ -34,6 +34,25 @@
 
     <title>INICIO - OIDOCOCINA</title>
 
+    <script>
+        function accionPlay() {
+            if (!medio.paused && !medio.ended) {
+                medio.pause();
+            } else {
+                medio.play();
+            }
+        }
+
+        function iniciar() {
+            medio = document.getElementById('medio');
+            play = document.getElementById('bot_play');
+
+            play.addEventListener('click', accionPlay);
+        }
+
+        window.addEventListener('load', iniciar, false);
+    </script>
+
 </head>
 
 
@@ -64,6 +83,16 @@
              <img src="imagen.png" alt="Video no soportado">   
              Su navegador no soporta contenido multimedia.   
         </video>
+
+        <div>
+            <audio id="medio" loop>
+            <source src="inc/mp3/Main_Theme.ogg" type="audio/ogg">
+            <source src="inc/mp3/Main_Theme.mp3" type="audio/mpeg">
+        </audio>
+
+            <button id="bot_play" class="audio">ACTIVAR/DESACTIVAR AUDIO</button>
+
+        </div>
 
         <div class="space">
             <h2>TÍTULO DE SECCIÓN 1</h2>

@@ -455,3 +455,11 @@ div{
         border: 1px solid red;
     }
 }*/
+
+.audio {
+    position: relative;
+    padding: 10px;
+    z-index: 2;
+    bottom: 8vh;
+    left: 20vw;
+}
