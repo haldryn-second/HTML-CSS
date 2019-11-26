@@ -121,7 +121,7 @@ aside li {
 }
 
 dl dd::before {
-    content: url('C:/Users/canales16086/Desktop/html2/inc/img/iconos/pdf.png');
+    content: url('../img/iconos/pdf.png');
 }
 
 dd img {
