@@ -27,3 +27,7 @@ iframe {
     margin: 0 auto;
     margin-top: 3em;
 }
+
+.mini {
+    display: inline;
+}

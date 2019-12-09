@@ -463,3 +463,48 @@ div{
     bottom: 8vh;
     left: 20vw;
 }
+
+article div input {
+    padding: 0.1em 0.5em 0.1em 0.5em;
+}
+
+
+/****BOTONES*/
+
+button {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #248F16;
+    border-radius: 0.6em;
+    color: #248F16;
+    cursor: pointer;
+    font-weight: 400;
+    margin: 5px;
+    padding: 1.2em 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+button:hover,
+button:focus {
+    color: white;
+    outline: 0;
+}
+
+button {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0 0 40px 40px #248F16 inset;
+}
+
+.mini {
+    display: none;
+}
+
+canvas {
+    background: lightgray
+}
