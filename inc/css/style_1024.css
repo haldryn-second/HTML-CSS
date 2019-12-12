@@ -31,3 +31,7 @@ iframe {
 .mini {
     display: inline;
 }
+
+input[type=range] {
+    display: none;
+}

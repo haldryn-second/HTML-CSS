@@ -102,6 +102,10 @@ video {
 
 /**************************************************************BLOG*/
 
+article h3 {
+    margin-bottom: 1em;
+}
+
 .blog_central {
     width: 75%;
     float: left;
@@ -507,4 +511,38 @@ button:hover {
 
 canvas {
     background: lightgray
+}
+
+input[type=range] {
+    position: relative;
+    -webkit-appearance: none;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input[type=range]:hover {
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #248F16;
+    cursor: pointer;
+}
+
+input[type=range].muted::-webkit-slider-thumb {
+    background: red;
+}
+
+.prue {
+    height: 28px;
+    display: inline-flex;
+    box-sizing: content-box;
 }
