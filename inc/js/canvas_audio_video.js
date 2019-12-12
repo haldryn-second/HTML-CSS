@@ -111,8 +111,8 @@ function iniciar() {
         accionPlay_audio(4);
     }, false);
 
-    canvas = document.getElementById('lienzo');
-    ctx = canvas.getContext('2d');
+    canvas1 = document.getElementById('lienzo');
+    ctx = canvas1.getContext('2d');
 
     ctx.lineWidth = 3;
     ctx.strokeStyle = "rgba(250,0,0,0.1)";
@@ -202,7 +202,6 @@ function iniciar() {
     var img = new Image();
     img.src = 'inc/img/logo_isotipo.png';
     img.onload = function() {
-
         ctx.shadowOffsetX = 5;
         ctx.shadowOffsetY = 3;
         ctx.shadowColor = "#8FED89";
