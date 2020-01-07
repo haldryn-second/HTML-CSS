@@ -62,7 +62,7 @@ nav li {
 }
 
 nav a:hover {
-    color: #248F16;
+    color: #2BA81A;
 }
 
 nav a {
@@ -170,7 +170,7 @@ main table {
 
 caption {
     padding-top: 1em;
-    border: 2px double #248F16;
+    border: 2px double #2BA81A;
     border-top: 0;
     height: 2em;
     vertical-align: middle;
@@ -184,11 +184,11 @@ tr:first-child {
 
 table td {
     padding: 1.5em;
-    border: 2px dashed #248F16;
+    border: 2px dashed #2BA81A;
 }
 
 th {
-    border: 2px double #248F16;
+    border: 2px double #2BA81A;
     height: 5em;
     border-top: 0;
 }
@@ -377,7 +377,7 @@ form .container {
 }
 
 .container input:checked~.checkmark {
-    background-color: #248F16;
+    background-color: #2BA81A;
 }
 
 .checkmark:after {
@@ -416,7 +416,7 @@ footer {
 
 footer a:hover,
 aside a:hover {
-    color: #248F16;
+    color: #2BA81A;
 }
 
 footer a,
@@ -478,9 +478,9 @@ article div input {
 button {
     appearance: none;
     background-color: transparent;
-    border: 2px solid #248F16;
+    border: 2px solid #2BA81A;
     border-radius: 0.6em;
-    color: #248F16;
+    color: #2BA81A;
     cursor: pointer;
     font-weight: 400;
     margin: 5px;
@@ -502,7 +502,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 0 40px 40px #248F16 inset;
+    box-shadow: 0 0 40px 40px #2BA81A inset;
 }
 
 .mini {
@@ -533,7 +533,7 @@ input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #248F16;
+    background: #2BA81A;
     cursor: pointer;
 }
 
